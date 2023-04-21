@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./sign-up.styles.scss";
 import {
   createUserDocumentFromAuth,
@@ -8,6 +9,7 @@ import FormInput from "../../form-input/form-input.component";
 import Button from "../../buttons/button.component";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   const defaultFormFields = {
     displayName: "",
     email: "",
@@ -38,6 +40,7 @@ const SignUp = () => {
     try {
       const { user } = await userSignUpWithEmail(email, password);
       await createUserDocumentFromAuth(user, { displayName });
+      navigate("/dashboard");
       resetForm();
     } catch (error) {
       if (error.code === "auth/email-already-in-use") {

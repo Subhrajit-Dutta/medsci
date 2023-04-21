@@ -18,22 +18,14 @@ const Navigation = () => {
         </div>
 
         <div className="nav-menu">
-          <li>
-            <a href="#home">HOME</a>
-          </li>
-          <li>
-            <a href="#about">ABOUT</a>
-          </li>
-          <li>
-            <a href="#contact">CONTACT</a>
-          </li>
+          <Link to="/">HOME</Link>
           {currentUser ? (
             <Link onClick={userSignOut}>SIGN OUT</Link>
           ) : (
             <Link to="/auth">SIGN IN</Link>
           )}
+          <MdDarkMode />
         </div>
-        <MdDarkMode />
       </div>
       <Outlet />
     </Fragment>

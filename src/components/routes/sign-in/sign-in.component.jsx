@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./sign-in.styles.scss";
 import {
   SignInWithGoogle,
@@ -8,6 +9,7 @@ import FormInput from "../../form-input/form-input.component";
 import Button from "../../buttons/button.component";
 
 const SignIn = () => {
+  const navigate = useNavigate();
   const defaultFormFields = {
     email: "",
     password: "",
@@ -30,6 +32,7 @@ const SignIn = () => {
 
     try {
       await userSignInWithEmail(email, password);
+      navigate("/dashboard");
       resetForm();
     } catch (error) {
       switch (error.code) {
