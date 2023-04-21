@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/navigation/navigation.component";
 import Home from "./components/home/home.component";
-import Authentication from "./routes/authentication/authentication.component";
+import Authentication from "./components/routes/authentication/authentication.component";
 import "./App.scss";
 
 function App() {
