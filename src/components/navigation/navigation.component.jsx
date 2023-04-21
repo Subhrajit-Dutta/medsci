@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
 import { MdDarkMode } from "react-icons/md";
 import "./navigation.styles.scss";
 import Logo from "../../assets/logo.png";
 import { Outlet, Link } from "react-router-dom";
+import { UserContext } from "../contexts/user.context";
+import { userSignOut } from "../../utils/firebase.utils";
 
 const Navigation = () => {
+  const { currentUser } = useContext(UserContext);
   return (
     <Fragment>
       <div className="navigation">
@@ -24,7 +27,11 @@ const Navigation = () => {
           <li>
             <a href="#contact">CONTACT</a>
           </li>
-          <Link to="/auth">SIGN IN</Link>
+          {currentUser ? (
+            <Link onClick={userSignOut}>SIGN OUT</Link>
+          ) : (
+            <Link to="/auth">SIGN IN</Link>
+          )}
         </div>
         <MdDarkMode />
       </div>
