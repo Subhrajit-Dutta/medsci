@@ -3,11 +3,12 @@ import { initializeApp } from "firebase/app";
 import {
   getAuth,
   GoogleAuthProvider,
-  signInWithRedirect,
+  signInWithPopup,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
+  signInWithRedirect,
 } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -58,7 +59,7 @@ export const createUserDocumentFromAuth = async (
   }
 };
 
-export const SignInWithGoogle = async () => {return await signInWithRedirect(auth, provider)};
+export const SignInWithGoogle = async () => {return await signInWithPopup(auth, provider)};
 
 export const userSignUpWithEmail = async (email, password) => {
   if (!email || !password) return;

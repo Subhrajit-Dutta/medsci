@@ -1,15 +1,22 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./sign-in.styles.scss";
+import "./user.sign-in.styles.scss";
 import {
   SignInWithGoogle,
   userSignInWithEmail,
-} from "../../../utils/firebase.utils";
-import FormInput from "../../form-input/form-input.component";
-import Button from "../../buttons/button.component";
+} from "../../../../utils/firebase.utils.js";
+import FormInput from "../../../form-input/form-input.component.jsx";
+import Button from "../../../buttons/button.component.jsx";
 
-const SignIn = () => {
+const UserSignIn = () => {
   const navigate = useNavigate();
+
+  const GoogleSignIn = async () => {
+    await SignInWithGoogle();
+    navigate("/dashboard");
+    resetForm();
+  };
+
   const defaultFormFields = {
     email: "",
     password: "",
@@ -74,7 +81,7 @@ const SignIn = () => {
 
         <div className="buttons-container">
           <Button type="submit">Sign In</Button>
-          <Button type="button" buttonType="google" onClick={SignInWithGoogle}>
+          <Button type="button" buttonType="google" onClick={GoogleSignIn}>
             Google Sign In
           </Button>
         </div>
@@ -83,4 +90,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default UserSignIn;
