@@ -2,27 +2,32 @@
   height: 120vh;
   .sidebar {
     font-family: 'Roboto', sans-serif;
-    width: 100px;
+    width: 105px;
     position: fixed;
     height: 100vh;
-    border-right: 1px solid #dfdddd;
+    border-right: 1px solid #F1F1F1;
     box-shadow: 0px 0px 10px rgba(105, 104, 104, 0.2);
+    background-color: #F1F1F1;;
     .sidebar-wrapper {
+      
       margin-top: 20px;
       display: flex;
-      height: 90%;
+      height: 80vh;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       .side-link {
+        border-radius: 10px;
         height: 50px;
-        width: 100%;
+        width: 95%;
         display: flex;
         //flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2px;
         &:hover {
+          transform: scale(1.1);
+          transition: 0.5s;
           background-color: #696666;
             color: #fff;
         }

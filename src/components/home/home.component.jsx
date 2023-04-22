@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div id="home" className="home">
       <div className="intro">
-        <p className="intro-1">Welcome To our <br /> Healthcare platform!</p>
+        <p className="intro-1">Welcome To Our <br /> Healthcare Platform!</p>
         <p className="intro-2">
           Connect with licensed doctors for trusted medical consultations and
           personalized support. Our user-friendly interface ensures seamless
