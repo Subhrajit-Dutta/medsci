@@ -82,7 +82,13 @@ const Dashboard = () => {
           <Outlet />
         </Fragment>
       ) : (
-        <div className="not-auth">Not logged in</div>
+        <div className="not-auth">
+          <h1>
+            Not logged in. <br/>
+            Please <Link className="span" to="/auth">log in</Link> to continue.
+            </h1>
+            
+          </div>
       )}
     </div>
   );
