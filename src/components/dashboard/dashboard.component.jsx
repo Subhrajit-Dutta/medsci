@@ -1,8 +1,7 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment, useEffect } from "react";
 import { useContext } from "react";
 import { UserContext } from "../contexts/user.context";
-import { useNavigate } from "react-router-dom";
-import { Outlet, Link } from "react-router-dom";
+import { useNavigate, Outlet, Link, useLocation } from "react-router-dom";
 import { MdExplore } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { BsIncognito } from "react-icons/bs";
@@ -17,6 +16,7 @@ const Dashboard = () => {
   const { currentUser } = useContext(UserContext);
   console.log(currentUser);
   const navigate = useNavigate();
+  const location = useLocation();
   const [selectedLinkIndex, setSelectedLinkIndex] = useState(1);
 
   const handleLinkClick = (index) => {
@@ -62,6 +62,13 @@ const Dashboard = () => {
     navigate("/auth");
   }
 
+  useEffect(() => {
+    // If the current route is /dashboard, navigate to /dashboard/explore
+    if (location.pathname === "/dashboard") {
+      navigate("/dashboard/explore");
+    }
+  }, [navigate, location.pathname]);
+
   return (
     <div className="dashboard">
       {currentUser ? (
@@ -82,7 +89,16 @@ const Dashboard = () => {
           <Outlet />
         </Fragment>
       ) : (
-        <div className="not-auth">Not logged in</div>
+        <div className="not-auth">
+          <h1>
+            Not logged in. <br />
+            Please{" "}
+            <Link className="span" to="/auth">
+              log in
+            </Link>{" "}
+            to continue.
+          </h1>
+        </div>
       )}
     </div>
   );
