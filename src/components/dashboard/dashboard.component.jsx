@@ -39,13 +39,13 @@ const Dashboard = () => {
         onClick={() => handleLinkClick(index)}
         to={
           index === 0
-            ? "/profile"
+            ? "/dashboard/profile"
             : index === 1
-            ? "/explore"
+            ? "/dashboard/explore"
             : index === 2
-            ? "/doctors"
+            ? "/dashboard/doctors"
             : index === 3
-            ? "/schedule"
+            ? "/dashboard/schedule"
             : index === 4
             ? "/"
             : ""
