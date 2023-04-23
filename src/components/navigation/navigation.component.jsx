@@ -24,7 +24,7 @@ const Navigation = () => {
           ) : (
             <Link className="navlink" to="/auth">SIGN IN</Link>
           )}
-          <Link className="navlink" to="/dashboard">DASHBOARD</Link>
+          <Link className="navlink" to="/dashboard/profile">DASHBOARD</Link>
           <MdDarkMode />
         </div>
       </div>

@@ -1,8 +1,9 @@
 .dashboard {
+  display: flex;
   height: 120vh;
   .sidebar {
-    font-family: 'Roboto', sans-serif;
-    width: 105px;
+    font-family: "Roboto", sans-serif;
+    width: 100px;
     position: fixed;
     height: 100vh;
     border-right: 1px solid #F1F1F1;
@@ -29,12 +30,29 @@
           transform: scale(1.1);
           transition: 0.5s;
           background-color: #696666;
-            color: #fff;
+          color: #fff;
         }
         &.selected {
-            background-color: #696666;
-            color: #fff;
-          }
+          background-color: #696666;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .not-auth {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    .span {
+      color: blueviolet;
+      &:hover {
+        color: rgb(81, 0, 118);
+        transition: 0.3s;
       }
     }
   }
