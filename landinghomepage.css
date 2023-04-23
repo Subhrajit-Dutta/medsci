@@ -1,0 +1,436 @@
+.landinghomepage-container {
+  min-height: 100vh;
+}
+.landinghomepage-landinghomepage {
+  width: 100%;
+  height: 4459px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(17, 17, 17, 1);
+}
+.landinghomepage-contact-screen {
+  top: 3414px;
+  left: 502px;
+  width: 863px;
+  height: 658px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-text {
+  left: 219px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 107px;
+  font-style: Medium TRIAL;
+  text-align: center;
+  font-family: Albra;
+  font-weight: 500;
+  line-height: 135px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-contact-us-body {
+  top: 225px;
+  left: 0px;
+  width: 863px;
+  height: 433px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-info-group {
+  top: 0px;
+  left: 0px;
+  width: 863px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-email {
+  top: 0px;
+  left: 455px;
+  width: 408px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-password-field {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  width: 408px;
+  height: 78px;
+  display: flex;
+  padding: 14px 100px;
+  position: relative;
+  align-items: flex-start;
+  border-radius: 16px;
+  background-color: rgba(60, 60, 59, 1);
+}
+.landinghomepage-text02 {
+  top: 20px;
+  left: 27px;
+  color: rgba(174, 174, 174, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-name {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  width: 408px;
+  height: 78px;
+  display: flex;
+  padding: 15px 125px;
+  position: relative;
+  align-items: flex-start;
+  border-radius: 16px;
+  justify-content: center;
+  background-color: rgba(60, 60, 59, 1);
+}
+.landinghomepage-text04 {
+  top: 21px;
+  left: 30px;
+  color: rgba(174, 174, 174, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-message-body {
+  top: 116px;
+  left: 0px;
+  width: 863px;
+  height: 317px;
+  position: absolute;
+  border-radius: 16px;
+}
+.landinghomepage-text06 {
+  top: 136px;
+  left: 30px;
+  color: rgba(174, 174, 174, 1);
+  height: auto;
+  position: absolute;
+  font-size: 33px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-line2 {
+  top: 3260px;
+  left: 127px;
+  width: 1612px;
+  height: 0px;
+  position: absolute;
+}
+.landinghomepage-about-screen {
+  top: 1571px;
+  left: 132px;
+  width: 1644px;
+  height: 1216px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-people {
+  top: 230px;
+  left: 984px;
+  width: 660px;
+  height: 986px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-image: linear-gradient(NaNdeg, rgba(17, 17, 17, 0.75) 0%, rgba(17, 17, 17, 0) 100%);
+}
+.landinghomepage-people1 {
+  top: 71px;
+  left: 65px;
+  width: 583px;
+  height: 797px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-personbuttonsvgrepocom1 {
+  top: 19px;
+  left: 0px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom11 {
+  top: 369px;
+  left: 184px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-sv-repoicon-carrier {
+  top: 184.00001525878906px;
+  left: 244px;
+  width: 169.03355407714844px;
+  height: 169.03355407714844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-group {
+  top: 0px;
+  left: 0px;
+  width: 169.03355407714844px;
+  height: 169.03355407714844px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-vector {
+  top: 0px;
+  left: 0px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom3 {
+  top: 434px;
+  left: 15px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom12 {
+  top: 0px;
+  left: 184px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom13 {
+  top: 433px;
+  left: 382px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom14 {
+  top: 628px;
+  left: 15px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom15 {
+  top: 554px;
+  left: 189px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom16 {
+  top: 209px;
+  left: 15px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+}
+.landinghomepage-personbuttonsvgrepocom17 {
+  top: 257px;
+  left: 413px;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+}
+.landinghomepage-text08 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 107px;
+  font-style: Medium TRIAL;
+  text-align: center;
+  font-family: Albra;
+  font-weight: 500;
+  line-height: 135px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-text10 {
+  top: 240px;
+  color: rgba(255, 255, 255, 1);
+  width: 984px;
+  height: auto;
+  position: absolute;
+  font-size: 63px;
+  font-style: Thin;
+  text-align: justified;
+  font-family: Duplicate Sans;
+  font-weight: 100;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-line1 {
+  top: 1372px;
+  left: 120px;
+  width: 1612px;
+  height: 0px;
+  position: absolute;
+}
+.landinghomepage-landing-screen {
+  top: 151px;
+  left: 209px;
+  width: 1487px;
+  height: 962px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.landinghomepage-green {
+  top: 182px;
+  left: 55px;
+  width: 1368px;
+  height: 780px;
+  position: absolute;
+}
+.landinghomepage-black {
+  top: 182px;
+  left: 55px;
+  width: 1368px;
+  height: 780px;
+  position: absolute;
+  border-radius: 41px;
+}
+.landinghomepage-text19 {
+  top: 253px;
+  left: 404px;
+  color: rgba(197, 197, 197, 1);
+  width: 702px;
+  height: auto;
+  position: absolute;
+  font-size: 197px;
+  font-style: Script Demo;
+  text-align: center;
+  font-family: BlackPearl Demo;
+  font-weight: 400;
+  line-height: 182.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-navbar-buttons {
+  top: 13px;
+  left: 1077px;
+  width: 410px;
+  height: 30px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.landinghomepage-text21 {
+  top: 1px;
+  left: -3px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27px;
+  font-style: Light;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-text23 {
+  top: 1px;
+  left: 291px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27px;
+  font-style: Light;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-text25 {
+  top: 1px;
+  left: 150px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 27px;
+  font-style: Light;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-text27 {
+  top: 621px;
+  left: 274px;
+  color: rgba(197, 197, 197, 1);
+  width: 931px;
+  height: auto;
+  position: absolute;
+  font-size: 51px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Duplicate Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.landinghomepage-text29 {
+  color: rgba(255, 255, 255, 1);
+  width: 251px;
+  height: auto;
+  position: absolute;
+  font-size: 47px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
